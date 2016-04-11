@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "dp-i18n:i18n"
   },
-  "repository": "https://github.com/atom/dp-i18n",
+  "repository": "https://github.com/robertfirespotter/dp-i18n",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
