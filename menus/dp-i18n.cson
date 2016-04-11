@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Mark dp i18n'
+      'command': 'dp-i18n:i18n'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'dp-i18n'
+      'submenu': [
+        {
+          'label': 'Mark i18n'
+          'command': 'dp-i18n:i18n'
+        }
+      ]
+    ]
+  }
+]

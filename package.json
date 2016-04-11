@@ -1,0 +1,18 @@
+{
+  "name": "dp-i18n",
+  "main": "./lib/dp-i18n",
+  "version": "0.0.0",
+  "description": "Hit shift-ctrl-d to wrap selected text in a {{#i18n}} tag with an auto generated name",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "dp-i18n:i18n"
+  },
+  "repository": "https://github.com/atom/dp-i18n",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
