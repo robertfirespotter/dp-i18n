@@ -14,8 +14,8 @@ module.exports = DpI18n =
   convert: ->
     if editor = atom.workspace.getActiveTextEditor()
       selectedText = editor.getSelectedText()
-      words = selectedText.split(' ', 4);
-      if words.length > 3
+      words = selectedText.split(' ', 6);
+      if words.length > 5
         words = words.slice(0, -1);
 
       i18n_key = words.join('_');
