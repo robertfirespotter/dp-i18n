@@ -1,7 +1,7 @@
 {
   "name": "dp-i18n",
   "main": "./lib/dp-i18n",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Hit shift-ctrl-d to wrap selected text in a {{#i18n}} tag with an auto generated name",
   "keywords": [],
   "activationCommands": {
